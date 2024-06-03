@@ -59,7 +59,7 @@
                 <a href="blog.html" class="nav-item nav-link">Blog</a>
                 <a href="contact.html" class="nav-item nav-link active">Contact</a>
             </div>
-            <a href="" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Book a call<i class="fa fa-arrow-right ms-3"></i></a>
+            <a href="https://calendly.com/larreth/melsoft-call?month=2024-05" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Book a call<i class="fa fa-arrow-right ms-3"></i></a>
         </div>
     </nav>
     <!-- Navbar End -->
@@ -164,20 +164,43 @@
                             </div>
                             <div class="col-8">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control" id="subject" placeholder="Custom software-development">
-                                    <label for="subject">What Are You Interested In</label>
+                                    <select style="padding: 16px;" >
+                                        <option value="">What Are You Interested In</option>
+                                        <option value="">Custom Software Development</option>
+                                        <option value="">Website Development</option>
+                                        <option value="">Digital Marketing</option>
+                                        <option value="">Branding</option>
+                                        <option value="">Other Services</option>
+                                      </select>
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="form-floating">
-                                    <input type="number" class="form-control" id="subject" placeholder="R1,000,000">
-                                    <label for="subject">Your Budget Range</label>
+
+<select style="padding: 16px;" >
+  <option value="">Your Budget Range</option>
+  <option value="">R1,000,000 +</option>
+  <option value="">R500,000 - R1,000,000</option>
+  <option value="">R250,000 - R500,000</option>
+  <option value="">R100,000 - R250,000</option>
+</select>
+
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="form-floating">
                                     <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 150px"></textarea>
                                     <label for="message">Message</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <form method="post" enctype="multipart/form-data">
+                                        <div>
+                                          <label for="file">Choose file to upload</label>
+                                          <input type="file" id="file" name="file" multiple />
+                                        </div>
+                                      </form>
                                 </div>
                             </div>
                             <div class="col-12">
